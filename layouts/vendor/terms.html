@@ -1,0 +1,28 @@
+{{- define "main" -}}
+
+<h1>{{ .Title }}</h1>
+
+
+<ul>
+  {{ range .Pages }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ .Params.country }}
+      </li>
+  {{ end }}
+</ul>
+
+{{ range .Data.Terms.Alphabetical }}
+  <p><a href="{{ .Page.RelPermalink }}"><code>{{ .Page.Title }}</code></a> {{ .Count }}</p>
+  
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">{{.Page.Title}}</h4>
+      <h6 class="card-subtitle mb-2 text-muted">{{.params.country}}</h6>
+      <p class="card-text">{{.Page.Summary}}</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+    {{ end }}
+
+{{- end -}}

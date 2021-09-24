@@ -1,0 +1,80 @@
+smartcard:
+  label: "PKCS#11 SmartCard"
+  icon: feature-pkcs
+  description: "Conforms to PKCS11 SmartCard interface standards"
+  more-info: https://en.wikipedia.org/wiki/PKCS_11
+yubiotp:
+  label: "YubiOTP"
+  icon: feature-yotp
+  description: "Enables use of Yubico YubiOTP one-time-passwords"
+  more-info: https://www.yubico.com/resources/glossary/yubico-otp/
+hotp:
+  label: "HOTP passwords"
+  icon: feature-hotp
+  description: "Supports Hashed One-Time-Password generation"
+  more-info: https://en.wikipedia.org/wiki/HMAC-based_one-time_password
+totp:
+  label: "Timed OTP passwords"
+  icon: feature-totp
+  description: "Supports Time-based One-Time-Password generation"
+  more-info: https://en.wikipedia.org/wiki/Time-based_One-Time_Password
+stored-password:
+  label: "Stored passwords"
+  icon: feature-passwords
+  description: "Supports stored, static passwords, usually configured with a vendor-specific application"
+u2f:
+  label: "U2F Authentication"
+  icon: feature-u2f
+  description: "Conforms to the U2F Authenticator/WebAuthn standard"
+  more-info: https://en.wikipedia.org/wiki/WebAuthn
+fido:
+  label: "FIDO2 Certification"
+  icon: null
+  description: "Has been certified by the FIDO Alliance as conforming to FIDO2 standards"
+  more-info: https://fidoalliance.org/certification/
+fido-L1:
+  label: FIDO L1 Certification
+  icon: null
+  description: "Certified by the FIDO Alliance to meet L1 Security Standards"
+  more-info: https://fidoalliance.org/certification/authenticator-certification-levels/authenticator-level-1/
+fido-l2:
+  label: FIDO L2 Certification
+  icon: null
+  description: "Certified by the FIDO Alliance to meet L2 Security Standards"
+  more-info: https://fidoalliance.org/certification/authenticator-certification-levels/authenticator-level-2/
+fido-l3:
+  label: FIDO L3 Certification
+  icon: null
+  description: "Certified by the FIDO Alliance to meet L3 Security Standards"
+  more-info: https://fidoalliance.org/certification/authenticator-certification-levels/authenticator-level-3/
+resident:
+  label: "Resident Cryptographic Keys"
+  description: "Supports U2F/WebAuthn discoverable/resident authentication keys"
+  icon: null
+  more-info: https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/Resident_Keys.html
+ssh-ed25519:
+  label: "SSH ED25519 keys"
+  description: "Supports ED25519 keys for SSH Authentication"
+  icon: null
+  more-info: https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.u2f
+ssh-ecdsa:
+  label: "SSH ECDSA keys"
+  description: "Supports ECDSA keys for SSH Authentication"
+  icon: null
+  more-info: https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.u2f
+biometric:
+  label: "Biometric Authentication"
+  description: "Allows or requires biometric authentication"
+  icon: feature-biometric
+pin-pad:
+  label: "PIN Authentication (physical)"
+  icon: feature-pin
+  description: "Features a physical PIN pad for authentication"
+wink:
+  label: "LED wink"
+  icon: feature-wink
+  description: "Supports blinking or otherwise alerting the user to touch or interact with the device"
+management-app:
+  label: "Management Application"
+  icon: feature-app
+  description: "Vendor provides applications that extend or configure the device"

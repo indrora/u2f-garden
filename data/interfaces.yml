@@ -1,0 +1,15 @@
+usba:
+  label: USB Type A
+  icon: interface-usba
+usbc:
+  label: USB Type C
+  icon: interface-usbc
+nfc:
+  label: Near-Field Communication (NFC)
+  icon: interface-nfc
+bluetooth:
+  label: Bluetooth
+  icon: interface-bluetooth
+lightning:
+  label: Apple Lightning Connector
+  icon: interface-lightning

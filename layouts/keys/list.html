@@ -1,0 +1,17 @@
+{{- define "main" -}}
+
+<h1>{{ .Title }}</h1>
+
+{{ $pages := .Pages }}
+{{ range $pages }}
+  <p>
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+
+    {{ partial "features" . }}
+    {{with .Params.Summary}}
+    {{.}}
+    {{end}}
+  </p>
+{{ end }}
+
+{{- end -}}

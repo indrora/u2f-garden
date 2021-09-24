@@ -1,0 +1,6 @@
+{{ range $.Params.features }}
+{{with (index $.Site.Data.features . )}}
+<span class="icon"> {{.icon}} {{.label}}</span><br/>
+
+{{end}}
+{{ end }}

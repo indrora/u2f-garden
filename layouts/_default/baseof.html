@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+{{ partial "head.html" . }}
+
+<body>
+  <div class="container">
+    
+    {{ partial "nav.html" . }}
+    
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+        
+  <footer class="pt-5 my-5 text-muted border-top">
+    Created by the Bootstrap team · © 2021
+  </footer>
+    </div>
+
+    {{ partial "bootstrap-js.html" . }}
+  {{ partial "google-analytics-async.html" . }}
+</body>
+
+</html>
