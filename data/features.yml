@@ -29,52 +29,94 @@ u2f:
   more-info: https://en.wikipedia.org/wiki/WebAuthn
 fido:
   label: "FIDO2 Certification"
-  icon: null
+  icon: feature-fido
   description: "Has been certified by the FIDO Alliance as conforming to FIDO2 standards"
   more-info: https://fidoalliance.org/certification/
-fido-L1:
+fido-l1:
   label: FIDO L1 Certification
-  icon: null
+  icon: feature-fido-l1
   description: "Certified by the FIDO Alliance to meet L1 Security Standards"
   more-info: https://fidoalliance.org/certification/authenticator-certification-levels/authenticator-level-1/
+  parent: fido
 fido-l2:
   label: FIDO L2 Certification
-  icon: null
+  icon: feature-fido-l2
   description: "Certified by the FIDO Alliance to meet L2 Security Standards"
   more-info: https://fidoalliance.org/certification/authenticator-certification-levels/authenticator-level-2/
+  parent: fido
 fido-l3:
   label: FIDO L3 Certification
-  icon: null
+  icon: feature-fido-l3
   description: "Certified by the FIDO Alliance to meet L3 Security Standards"
   more-info: https://fidoalliance.org/certification/authenticator-certification-levels/authenticator-level-3/
+  parent: fido
 resident:
   label: "Resident Cryptographic Keys"
   description: "Supports U2F/WebAuthn discoverable/resident authentication keys"
-  icon: null
+  icon: feature-resident
   more-info: https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/Resident_Keys.html
+app-support:
+  label: "Non-web application support"
+  description: "This token supports non-web applications, such as SSH, which use the CTAP2 protocol"
 ssh-ed25519:
   label: "SSH ED25519 keys"
   description: "Supports ED25519 keys for SSH Authentication"
-  icon: null
+  icon: feature-add
   more-info: https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.u2f
+  parent: app-support
 ssh-ecdsa:
   label: "SSH ECDSA keys"
   description: "Supports ECDSA keys for SSH Authentication"
-  icon: null
+  icon: feature-add
   more-info: https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.u2f
+  parent: app-support
+windows-hello:
+  label: "Windows Hello"
+  description: "Supports logging in using Windows Hello"
+  icon: feaure-add
+  parent: app-support
 biometric:
   label: "Biometric Authentication"
   description: "Allows or requires biometric authentication"
   icon: feature-biometric
+  parent: null
 pin-pad:
   label: "PIN Authentication (physical)"
   icon: feature-pin
   description: "Features a physical PIN pad for authentication"
+  parent: null
 wink:
   label: "LED wink"
   icon: feature-wink
   description: "Supports blinking or otherwise alerting the user to touch or interact with the device"
+  parent: null
 management-app:
   label: "Management Application"
   icon: feature-app
   description: "Vendor provides applications that extend or configure the device"
+  parent: null
+management-app-win:
+  label: "Windows management application"
+  icon: null
+  description: "Management application runs on Windows"
+  parent: management-app
+management-app-mac:
+  label: "MacOS management application"
+  icon: null
+  description: "Management application runs on MacOS"
+  parent: management-app
+management-app-web:
+  label: "Web-based Management application"
+  icon: null
+  description: "Management application runs in a browser"
+  parent: management-app
+management-app-android:
+  label: "Android management application"
+  icon: null
+  description: "Management application runs on Android smartphones with appropriate hardware (NFC, BLE, etc)"
+  parent: management-app
+management-app-ios:
+  label: "iOS management application"
+  icon: null
+  description: "Management application runs on Apple iOS devices"
+  parent: management-app

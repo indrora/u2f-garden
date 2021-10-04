@@ -1,28 +1,39 @@
 {{- define "main" -}}
-
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Vendors</li>
+  </ol>
+</nav>
 <h1>{{ .Title }}</h1>
 
 
-<ul>
-  {{ range .Pages }}
-      <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-          {{ .Params.country }}
-      </li>
-  {{ end }}
-</ul>
+<div class="row row-cols-3 row-cols-md-4"  data-masonry='{"percentPosition": true }'>
 
-{{ range .Data.Terms.Alphabetical }}
-  <p><a href="{{ .Page.RelPermalink }}"><code>{{ .Page.Title }}</code></a> {{ .Count }}</p>
-  
-  <div class="card">
-    <div class="card-body">
-      <h4 class="card-title">{{.Page.Title}}</h4>
-      <h6 class="card-subtitle mb-2 text-muted">{{.params.country}}</h6>
-      <p class="card-text">{{.Page.Summary}}</p>
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
+    {{ range .Data.Terms.Alphabetical }}
+    
+    <div class="mb-3">
+    <div class="card">
+      {{- with .Page.Resources.GetMatch "logo*" }}
+      {{$resized := .Fit "400x400" -}}
+      <img src="{{ $resized.RelPermalink }}" class="card-img-top p-4" alt="{{.Title}}">
+      {{- end -}}
+      
+      <div class="card-body">
+        <h5 class="card-title">{{.Page.Title}}</h5>
+        {{- with .Page.Params.Country -}} <h6 class="card-subtitle mb-2 text-muted">{{.}}</h6>{{- end -}}
+        {{- with .Page.Summary }}<p class="card-text">{{.}}</p>{{- end -}}
+        {{- with .Page.Params.links -}}
+        {{- with .vendor}}<a href="{{.|absURL}}" class="card-link">Vendor Website</a>{{- end -}}
+        {{- with .purchase -}}<a href="{{.|absURL}}" class="card-link">Purchase</a>{{- end -}}
+        {{- end -}}
+      </div>
+      <div class="card-footer">
+        <a href="{{.Page.RelPermalink}}">{{.Count}} {{if (gt .Count 1) -}}devices{{- else -}}device{{- end -}}</a>
+      </div>  
     </div>
-    {{ end }}
+    </div>
+    {{- end -}}
+</div>
 
 {{- end -}}

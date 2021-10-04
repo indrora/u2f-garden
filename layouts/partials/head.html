@@ -9,27 +9,27 @@
   {{ end }}
 
   {{ $appleTouchIcon := "apple-touch-icon.png" }}
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouchIcon | absURL }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouchIcon | relURL }}">
 
   {{ $favicon32x32 := "favicon-32x32.png" }}
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32x32 | absURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32x32 | relURL }}">
 
   {{ $favicon16x16 := "favicon-16x16.png" }}
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16x16 | absURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16x16 | relURL }}">
 
   {{ $siteWebmanifest := "site.webmanifest" }}
-  <link rel="manifest" href="{{ $siteWebmanifest | absURL }}">
+  <link rel="manifest" href="{{ $siteWebmanifest | relURL }}">
 
   {{ $safariPinnedTab := "safari-pinned-tab.svg" }}
-  <link rel="mask-icon" href="{{ $safariPinnedTab | absURL }}" color="{{ .Site.Params.faviconSafariPinnedTabColor }}">
+  <link rel="mask-icon" href="{{ $safariPinnedTab | relURL }}" color="{{ .Site.Params.faviconSafariPinnedTabColor }}">
 
   <meta name="msapplication-TileColor" content="{{ .Site.Params.faviconMsApplicationTileColor }}">
 
   <meta name="theme-color" content="{{ .Site.Params.faviconThemeColor }}">
 
   {{ $bootstrapCss := "css/bootstrap.min.css" }}
-  <link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />
-  <link rel="stylesheet" href="{{absURL "css/icons.css" }}" />
+  <link rel="stylesheet" href="{{ $bootstrapCss | relURL }}" />
+  <link rel="stylesheet" href="{{relURL "css/icons.css" }}" />
 
   {{ if .IsHome }}
   {{ $homepage := "Home" }}

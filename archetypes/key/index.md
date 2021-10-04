@@ -1,10 +1,8 @@
 ---
-type: key
 title: "{{ replace .Name "-" " " }}"
-slug: "{{ .Name }}"
 draft: true
 vendor: Vendor
-url: null
+vendor_link: null
 purchase:
   amazon: null
   vendor: null
@@ -13,3 +11,9 @@ features:
 interfaces:
   - usb
 ---
+
+# Using the feature with the key
+
+# Caveats
+
+lorem ipsum dolor sit amet

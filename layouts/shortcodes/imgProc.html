@@ -18,6 +18,6 @@
   {{- errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
 {{- end -}}
 
-<a href="{{ $original.Permalink }}">
-  <img src="{{ $new.Permalink }}" alt="{{ $alt }}" class="{{ $class }}" style="{{ $style | safeCSS }}">
+<a href="{{ $original.RelPermalink }}">
+  <img src="{{ $new.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" style="{{ $style | safeCSS }}">
 </a>

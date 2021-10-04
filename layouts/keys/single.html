@@ -1,14 +1,63 @@
 {{- define "main" -}}
+{{$vendor :=  (index (.GetTerms "vendor") 0) }}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    {{- with $.Site.GetPage ("/keys/") -}}
+    <li class="breadcrumb-item"><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{- end -}}
+    {{- with $vendor -}}
+    <li class="breadcrumb-item"><a href="{{.Page.RelPermalink}}">{{.Page.Title}}</a></li>
+    {{- end -}}
+    <li class="breadcrumb-item active" aria-current="page">{{.Title}}</li>
+  </ol>
+</nav>
+
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      {{$feature := .Resources.GetMatch "feature*" }}
+      {{if $feature -}}
+      {{$resized := $feature.Fit "700x500"}}
+      <img src="{{$resized.RelPermalink}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      {{- else -}}
+      {{- end -}}
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold lh-1 mb-3">{{.Title}}</h1>
+      {{with .Params.Lead}}
+      <p class="lead">{{. | markdownify }}</p>
+      {{- end -}}
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        {{if .Params.purchase.vendor}}
+        <a type="button" href="{{.Params.purchase.vendor}}" class="btn btn-primary btn-lg px-4 me-md-2">Purchase from {{$vendor.Title}}</a>
+        {{- end -}}
+        <a type="button" class="btn btn-outline-secondary btn-lg px-4">Default</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <h1>{{ .Title | markdownify }}</h1>
-<p>
-  <small class="text-secondary">
-  {{ $customDateFormat := "January 2, 2006" }}
-  {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
-  {{ .PublishDate.Format $customDateFormat }}{{ if gt .Lastmod .PublishDate }}, updated {{ .Lastmod.Format $customDateFormat }}{{ end }}
-  </small>
-  {{ partial "tags" . }}
-</p>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+  {{range sort .Params.features }}
+    {{$feature := (index $.Site.Data.features .)}}
+    {{with $feature }}
+    <div class="col d-flex align-items-start">
+      {{with .icon}}<img class="bi text-muted flex-shrink-0 me-3" src="/icons/{{.}}.svg" />{{end}}
+      <div>
+        <h4 class="fw-bold mb-0">{{.label}}</h4>
+        <p>{{.description}}</p>
+        {{with (index . "more-info")}}<a href="{{.}}">More Info</a>{{end}}
+      </div>
+    </div>
+    {{end}}
+  {{end}}
+</div>
+
+
 {{ .Content }}
 
 {{- end -}}

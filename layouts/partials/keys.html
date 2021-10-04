@@ -1,0 +1,38 @@
+
+<div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1" data-masonry='{"percentPosition": true }'>
+    {{ $pages := .Pages }}
+    {{ range $pages.ByTitle }}
+    
+    <div class="mb-3">
+        {{$pgTitle := .Page.Title }}
+        <div class="card">
+          {{- with .Page.Resources.GetMatch "feature*" }}
+          {{$resized := .Fill "400x400" -}}
+          <img src="{{ $resized.RelPermalink }}" class="card-img-top" alt="{{$pgTitle}}">
+          {{- end -}}
+          <div class="card-body">
+              <h3 class="card-title">{{$pgTitle}}</h3>
+              {{with .Summary -}}
+          {{. | markdownify}}
+          {{- end -}}
+          </div>
+          <div class="card-body">
+              <a href="{{.RelPermalink}}" class="card-link">More information</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+        <div class="card-footer text-muted">
+          {{range .Params.Features}}
+          {{- with (index $.Site.Data.features . ) -}}
+          {{- if ne (isset . "parent") true }}
+          {{if isset . "icon" }}
+          <img src="/icons/{{.icon}}.svg" alt="{{.description}}" /></li>
+          {{- end -}}
+          {{- end -}}
+          {{- end -}}
+          {{- end -}}
+        </div>
+      </div>
+    </div>
+      {{ end }}
+    
+  </div>
