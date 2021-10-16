@@ -2,7 +2,11 @@
 languageCode = 'en-us'
 title = 'The U2F Garden'
 
-
+[languages]
+[languages.en]
+  title = "The U2F Garden"
+[languages.fr]
+  title = "Les Garden U2F"
 
 [params]
   description = "Some description"

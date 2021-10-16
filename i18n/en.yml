@@ -1,0 +1,10 @@
+deviceCount:
+  one: "1 device"
+  other: '{{.}} devices'
+link_vend_vendor:
+  other: "Vendor Website"
+link_vend_purchase:
+  other: "Purchase"
+link_vend_amazon:
+  other: "Purchase on Amazon"
+

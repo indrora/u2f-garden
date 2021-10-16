@@ -23,13 +23,18 @@
         <h5 class="card-title">{{.Page.Title}}</h5>
         {{- with .Page.Params.Country -}} <h6 class="card-subtitle mb-2 text-muted">{{.}}</h6>{{- end -}}
         {{- with .Page.Summary }}<p class="card-text">{{.}}</p>{{- end -}}
-        {{- with .Page.Params.links -}}
-        {{- with .vendor}}<a href="{{.|absURL}}" class="card-link">Vendor Website</a>{{- end -}}
-        {{- with .purchase -}}<a href="{{.|absURL}}" class="card-link">Purchase</a>{{- end -}}
-        {{- end -}}
+
       </div>
+      <ul class="list-group list-group-flush">
+      {{- range $key,$value := .Page.Params.links -}}
+        {{if (ne $value nil)}}
+        {{$txkey := (printf "link_vend_%s" $key)}}
+        <li class="list-group-item"><a href="{{$value}}">{{i18n $txkey}}</a></li>
+        {{- end -}}
+        {{- end -}}
+      </ul>
       <div class="card-footer">
-        <a href="{{.Page.RelPermalink}}">{{.Count}} {{if (gt .Count 1) -}}devices{{- else -}}device{{- end -}}</a>
+        <a href="{{.Page.RelPermalink}}">{{i18n "deviceCount" .Count }}</a>
       </div>  
     </div>
     </div>
