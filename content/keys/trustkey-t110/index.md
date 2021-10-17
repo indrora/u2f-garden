@@ -1,6 +1,6 @@
 ---
 title: TrustKey T110
-draft: true
+draft: false
 vendor: trustkey
 vendor_link: https://www.trustkeysolutions.com/security-keys/t110/
 purchase:
@@ -10,7 +10,6 @@ features:
   - u2f
   - totp
   - hotp
-  - wink
   - fido 
   - fido-l1
   - resident

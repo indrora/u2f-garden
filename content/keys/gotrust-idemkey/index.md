@@ -1,6 +1,6 @@
 ---
 title: GoTrust IdemKey
-draft: true
+draft: false
 vendor: gotrust
 vendor_link: https://www.gotrustid.com/idem-key
 purchase:
@@ -14,9 +14,3 @@ interfaces:
   - usba
 summary: GoTrust's IdemKey is the first FIDO2 Level 2 certified U2F token on the market. 
 ---
-
-# Using the feature with the key
-
-# Caveats
-
-lorem ipsum dolor sit amet

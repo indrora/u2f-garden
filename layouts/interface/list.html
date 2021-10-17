@@ -1,0 +1,15 @@
+{{- define "main" -}}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Keys</li>
+  </ol>
+</nav>
+
+{{$iface := (index $.Site.Data.interfaces .Name)}}
+
+<h1>Keys that use {{ $iface.label }}</h1>
+
+{{- partial "keys.html" . }}
+
+{{- end -}}

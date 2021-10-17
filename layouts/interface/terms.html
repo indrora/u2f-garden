@@ -1,0 +1,24 @@
+{{- define "main" -}}
+
+<h1>{{ .Title }}</h1>
+
+
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+  {{ range .Data.Terms.Alphabetical }}
+  {{$iface := (index $.Site.Data.interfaces .Page.Title)}}
+  <div class="col d-flex align-items-start">
+    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+      <img src="/icons/{{$iface.icon}}.svg" class="bi" />
+    </div>
+    <div>
+      <h2>{{$iface.label}}</h2>
+      <a href="{{.Page.RelPermalink}}" class="btn btn-primary">
+        {{i18n "deviceCount" .Count }}
+      </a>
+    </div>
+  </div>
+
+
+  {{ end }}
+</div>
+{{- end -}}

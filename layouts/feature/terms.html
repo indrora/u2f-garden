@@ -1,0 +1,31 @@
+{{- define "main" -}}
+
+<h1>{{ .Title }}</h1>
+
+
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+  {{ range .Data.Terms.Alphabetical }}
+  {{$feature := (index $.Site.Data.features .Name)}}
+  {{if $feature }}
+  {{if (not  $feature.parent ) }}
+  <div class="col d-flex align-items-start">
+    <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+      <img src="/icons/{{$feature.icon}}.svg" class="bi" />
+    </div>
+    <div>
+      <h2>{{$feature.label}}</h2>
+      <p>{{$feature.description}}</p>
+      <a href="{{.Page.RelPermalink}}" class="btn btn-primary">
+        {{i18n "deviceCount" .Count }}
+      </a>
+      {{$moreinfo := (index $feature "more-info")}}{{with $moreinfo}}
+      <a href="{{.}}">More Information</a>{{end}}
+    </div>
+  </div>
+  {{end }}
+  {{else}}
+  {{ printf "%#v" .Name }}
+  {{end}}
+  {{ end }}
+</div>
+{{- end -}}

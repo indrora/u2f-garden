@@ -1,6 +1,6 @@
 ---
 title: HyperFIDO Pro Mini
-draft: true
+draft: false
 vendor: hypersecu
 vendor_link: https://www.hypersecu.com/hyperfido
 purchase:
@@ -14,9 +14,3 @@ interfaces:
   - usba
 summary: Small and unassuming, good for a desktop with occasional travel.
 ---
-
-# Using the feature with the key
-
-# Caveats
-
-lorem ipsum dolor sit amet

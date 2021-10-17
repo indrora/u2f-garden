@@ -1,6 +1,6 @@
 ---
 title: HyperFIDO Titanium PRO
-draft: true
+draft: false
 vendor: hypersecu
 vendor_link: https://www.hypersecu.com/hyperfido
 purchase:

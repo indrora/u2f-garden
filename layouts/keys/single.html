@@ -29,10 +29,10 @@
       <p class="lead">{{. | markdownify }}</p>
       {{- end -}}
       <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        {{if .Params.purchase.vendor}}
-        <a type="button" href="{{.Params.purchase.vendor}}" class="btn btn-primary btn-lg px-4 me-md-2">Purchase from {{$vendor.Title}}</a>
-        {{- end -}}
-        <a type="button" class="btn btn-outline-secondary btn-lg px-4">Default</a>
+        
+        {{with .Params.purchase.vendor}}<a type="button" href="{{.}}" class="btn btn-primary btn-lg px-4 me-md-2">Purchase from {{$vendor.Title}}</a>{{end}}
+        {{with .Params.purchase.amazon}}<a type="button" href="https://amazon.com/dp/{{.}}/" class="btn btn-secondary btn-lg px-4 me-md-2">Purchase on Amazon</a>{{end}}
+
       </div>
     </div>
   </div>

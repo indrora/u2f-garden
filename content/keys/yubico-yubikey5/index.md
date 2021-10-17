@@ -1,6 +1,6 @@
 ---
 title: "Yubikey 5"
-draft: true
+draft: false
 vendor: Yubico
 vendor_link: https://www.yubico.com/products/yubikey-5-overview/
 purchase:

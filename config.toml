@@ -5,8 +5,6 @@ title = 'The U2F Garden'
 [languages]
 [languages.en]
   title = "The U2F Garden"
-[languages.fr]
-  title = "Les Garden U2F"
 
 [params]
   description = "Some description"
@@ -37,6 +35,10 @@ title = 'The U2F Garden'
   name = "Keys"
   url = "/keys/"
   weight=1
+  [[menu.nav]]
+  name = "FAQ"
+  url= "/faq/"
+  weight=3
   [[menu.nav]]
   name = "Tags"
   url = "/tags/"

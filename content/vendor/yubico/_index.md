@@ -3,4 +3,4 @@ title: Yubico
 country: United States
 ---
 
-Yubico words words
+One of the leaders in security tokens, Yubico brought them to the masses through their Yubikey line. 
