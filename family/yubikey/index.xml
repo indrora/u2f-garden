@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yubikey on The U2F Garden</title>
+    <link>/family/yubikey/</link>
+    <description>Recent content in Yubikey on The U2F Garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/family/yubikey/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

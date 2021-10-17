@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on The U2F Garden</title>
+    <link>/features/</link>
+    <description>Recent content in Features on The U2F Garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fido</title>
+      <link>/features/fido/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/fido/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fido-l1</title>
+      <link>/features/fido-l1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/fido-l1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fido-l2</title>
+      <link>/features/fido-l2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/fido-l2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hotp</title>
+      <link>/features/hotp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/hotp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management-app</title>
+      <link>/features/management-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/management-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management-app-android</title>
+      <link>/features/management-app-android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/management-app-android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management-app-mac</title>
+      <link>/features/management-app-mac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/management-app-mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management-app-win</title>
+      <link>/features/management-app-win/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/management-app-win/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resident</title>
+      <link>/features/resident/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/resident/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smartcard</title>
+      <link>/features/smartcard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/smartcard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh-ecdsa</title>
+      <link>/features/ssh-ecdsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/ssh-ecdsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh-ed25519</title>
+      <link>/features/ssh-ed25519/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/ssh-ed25519/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stored-password</title>
+      <link>/features/stored-password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/stored-password/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>totp</title>
+      <link>/features/totp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/totp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Universal 2 factor</title>
+      <link>/features/u2f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/u2f/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yubiotp</title>
+      <link>/features/yubiotp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/features/yubiotp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

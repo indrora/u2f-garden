@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vendor on The U2F Garden</title>
+    <link>/vendor/</link>
+    <description>Recent content in Vendor on The U2F Garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/vendor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FeiTian</title>
+      <link>/vendor/feitian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vendor/feitian/</guid>
+      <description>&lt;p&gt;FeiTian (stylized as FEITIAN Technologies), established in 1998, is a Shenzhen based strong authentication and online security company. Their product line started with SmartCard and JavaCard products, later expanding into various mobile payment terminals in mainland China.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GoTrustID</title>
+      <link>/vendor/gotrust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vendor/gotrust/</guid>
+      <description>GoTrust provides FIPS-Compliant security keys in multiple forms, including traditional token and card forms.</description>
+    </item>
+    
+    <item>
+      <title>HyperSecu</title>
+      <link>/vendor/hypersecu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vendor/hypersecu/</guid>
+      <description>HyperSecu provides FIDO-certified tokens for individuals and enterprise.</description>
+    </item>
+    
+    <item>
+      <title>Thetis</title>
+      <link>/vendor/thetis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vendor/thetis/</guid>
+      <description>Thetis produces U2F and FIDO2 compliant tokens both with and without fingerprint biometrics.</description>
+    </item>
+    
+    <item>
+      <title>TrustKey</title>
+      <link>/vendor/trustkey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vendor/trustkey/</guid>
+      <description>TrustKey produces U2F tokens backed by a secure element designed by the parent company, eWBM.</description>
+    </item>
+    
+    <item>
+      <title>Yubico</title>
+      <link>/vendor/yubico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vendor/yubico/</guid>
+      <description>One of the leaders in security tokens, Yubico brought them to the masses through their Yubikey line.</description>
+    </item>
+    
+  </channel>
+</rss>

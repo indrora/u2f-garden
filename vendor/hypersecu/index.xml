@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HyperSecu on The U2F Garden</title>
+    <link>/vendor/hypersecu/</link>
+    <description>Recent content in HyperSecu on The U2F Garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/vendor/hypersecu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HyperFIDO Pro Mini</title>
+      <link>/keys/hyperfido-pro-mini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/hyperfido-pro-mini/</guid>
+      <description>Small and unassuming, good for a desktop with occasional travel.</description>
+    </item>
+    
+    <item>
+      <title>HyperFIDO Titanium PRO</title>
+      <link>/keys/hyperfido-pro-ti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/hyperfido-pro-ti/</guid>
+      <description>No-frills and durable, HyperSECU&amp;rsquo;s HyperFIDO Titanium Pro provides a basic option for keychains.</description>
+    </item>
+    
+  </channel>
+</rss>

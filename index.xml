@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The U2F Garden</title>
+    <link>/</link>
+    <description>Recent content on The U2F Garden</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Sep 2021 15:03:09 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello, World!</title>
+      <link>/posts/2021/hello-world/</link>
+      <pubDate>Sat, 18 Sep 2021 15:03:09 -0700</pubDate>
+      
+      <guid>/posts/2021/hello-world/</guid>
+      <description>Welcome to the U2F Garden!
+The goal of the U2F Garden is to provide a guide on the many and varied U2F tokens and keys out there in the world. There&amp;rsquo;s a lot of them out there and I wanted to make sure that there was a good guide on what keys support what features.
+Where&amp;rsquo;d this all start? This started when I wanted to make a small adjustment to my typical SSH configuration.</description>
+    </item>
+    
+    <item>
+      <title>About The U2F Garden</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>The goal of the U2F Garden is to collect information on the many FIDO/U2F/WebAuthn tokens, organizing them into categories.</description>
+    </item>
+    
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/faq/</guid>
+      <description>Here are some common questions people ask:
+Why should I use a security token over an SMS authentication tool? SMS messages can &amp;ndash; and have &amp;ndash; been intercepted in the past. Attackers use techniques like SIM swapping to hijack messages and even phone calls.
+Learn more about
+ SIM Swapping attacks and what the FCC is doing about them Weaknesses in mobile telephone networks  Do I need a different token for every site?</description>
+    </item>
+    
+    <item>
+      <title>GoTrust IdemKey</title>
+      <link>/keys/gotrust-idemkey/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/gotrust-idemkey/</guid>
+      <description>GoTrust&amp;rsquo;s IdemKey is the first FIDO2 Level 2 certified U2F token on the market.</description>
+    </item>
+    
+    <item>
+      <title>HyperFIDO Pro Mini</title>
+      <link>/keys/hyperfido-pro-mini/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/hyperfido-pro-mini/</guid>
+      <description>Small and unassuming, good for a desktop with occasional travel.</description>
+    </item>
+    
+    <item>
+      <title>HyperFIDO Titanium PRO</title>
+      <link>/keys/hyperfido-pro-ti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/hyperfido-pro-ti/</guid>
+      <description>No-frills and durable, HyperSECU&amp;rsquo;s HyperFIDO Titanium Pro provides a basic option for keychains.</description>
+    </item>
+    
+    <item>
+      <title>TrustKey T110</title>
+      <link>/keys/trustkey-t110/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/trustkey-t110/</guid>
+      <description>TrustKey&amp;rsquo;s entry level token provides a large number of options for authentication but requires software for non-U2F features.</description>
+    </item>
+    
+    <item>
+      <title>Why use U2F Tokens?</title>
+      <link>/why-u2f/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/why-u2f/</guid>
+      <description>When you log into a website, you&amp;rsquo;re probably used to using your username and password. Increasingly, however, phishing and other social engineering attacks are getting better and better. In a modern world, hardware security tokens like U2F tokens help keep attackers from taking advantage of us.
+What is Two-Factor authentication? Two factor authentication (2FA) is a way that websites can secure accounts. In order to log in, you must present two forms of authentication:</description>
+    </item>
+    
+    <item>
+      <title>yubico fido2</title>
+      <link>/keys/yubico-fido2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/yubico-fido2/</guid>
+      <description>A cut-down Yubikey, the Security Key series provides a classic form with wide function.</description>
+    </item>
+    
+    <item>
+      <title>Yubikey 5</title>
+      <link>/keys/yubico-yubikey5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/yubico-yubikey5/</guid>
+      <description>Yubico&amp;rsquo;s flagship product, the Yubikey 5 is one of the most feature complete security tokens on the market.</description>
+    </item>
+    
+  </channel>
+</rss>
