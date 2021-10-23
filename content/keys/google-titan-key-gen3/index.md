@@ -1,6 +1,6 @@
 ---
 title: "Titan Security Key (Gen3)"
-draft: true
+draft: false
 vendor: google
 vendor_link: https://cloud.google.com/titan-security-key/
 purchase:

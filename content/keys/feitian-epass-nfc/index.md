@@ -1,6 +1,6 @@
 ---
 title: ePASS FIDO NFC
-draft: true
+draft: false
 vendor: feitian
 vendor_link: https://www.ftsafe.com/Products/FIDO/NFC
 purchase:
