@@ -13,7 +13,7 @@ features:
   - fido 
   - fido-l1
   - resident
-  - ssh-ecdsa
+  - resident-ecdsa
   - management-app
   - management-app-win
   - management-app-mac

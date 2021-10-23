@@ -58,18 +58,16 @@ resident:
 app-support:
   label: "Non-web application support"
   description: "This token supports non-web applications, such as SSH, which use the CTAP2 protocol"
-ssh-ed25519:
-  label: "SSH ED25519 keys"
-  description: "Supports ED25519 keys for SSH Authentication"
+resident-ed25519:
+  label: "Resident ED25519 keys"
+  description: "Supports ED25519 discoverable keys"
   icon: feature-add
-  more-info: https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.u2f
-  parent: app-support
-ssh-ecdsa:
-  label: "SSH ECDSA keys"
-  description: "Supports ECDSA keys for SSH Authentication"
+  parent: resident
+resident-ecdsa:
+  label: "Resident ECDSA keys"
+  description: "Supports ECDSA discoverable keys"
   icon: feature-add
-  more-info: https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.u2f
-  parent: app-support
+  parent: resident
 windows-hello:
   label: "Windows Hello"
   description: "Supports logging in using Windows Hello"

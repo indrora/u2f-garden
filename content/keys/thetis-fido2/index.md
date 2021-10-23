@@ -1,6 +1,6 @@
 ---
 title: Thetis FIDO2 Security key
-draft: true
+draft: false
 vendor: thetis
 vendor_link: https://thetis.io/
 purchase:
@@ -9,12 +9,10 @@ purchase:
 features:
   - u2f
   - fido
+  - resident
+  - resident-ecdsa
 interfaces:
   - usba
 ---
 
-# Using the feature with the key
-
-# Caveats
-
-lorem ipsum dolor sit amet
+Thetis' line of FIDO2 U2F tokens are durable, inconspicuous, and simple.

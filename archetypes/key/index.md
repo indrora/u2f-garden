@@ -9,11 +9,5 @@ purchase:
 features:
   - u2f
 interfaces:
-  - usb
+  - usba
 ---
-
-# Using the feature with the key
-
-# Caveats
-
-lorem ipsum dolor sit amet
