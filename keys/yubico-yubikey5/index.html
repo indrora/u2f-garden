@@ -8,7 +8,7 @@
   <meta name="generator" content="Hugo 0.88.1" />
 
   
-  <meta name="description" content="Some description">
+  <meta name="description" content="The U2F Garden is a catalog of U2F tokens">
   
 
   
@@ -24,11 +24,11 @@
   <link rel="manifest" href="/site.webmanifest">
 
   
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
 
-  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileColor" content="">
 
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="">
 
   
   <link rel="stylesheet" href="/css/bootstrap.min.css" />
@@ -82,7 +82,7 @@
       <img src="/keys/yubico-yubikey5/feature_hue875b9443dba69d9063bc296e1fb7993_112932_700x500_fit_q75_box.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"></div>
     <div class="col-lg-6">
       <h1 class="display-5 fw-bold lh-1 mb-3">Yubikey 5</h1>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+      <p class="lead">Yubico&rsquo;s flagship product, the Yubikey 5 is one of the most feature complete security tokens on the market.</p><div class="d-grid gap-2 d-md-flex justify-content-md-start">
         
         <a type="button" href="https://www.yubico.com/store/#for-professionals" class="btn btn-primary btn-lg px-4 me-md-2">Purchase from Yubico</a>
         <a type="button" href="https://amazon.com/dp/B07HBD71HL/" class="btn btn-secondary btn-lg px-4 me-md-2">Purchase on Amazon</a>
@@ -96,6 +96,18 @@
 <h1>Yubikey 5</h1>
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+  
+    
+    
+    <div class="col d-flex align-items-start">
+      <img class="bi text-muted flex-shrink-0 me-3" src="/icons/feature-biometric.svg" />
+      <div>
+        <h4 class="fw-bold mb-0">Biometric Authentication</h4>
+        <p>Allows or requires biometric authentication</p>
+        
+      </div>
+    </div>
+    
   
     
     
@@ -184,35 +196,35 @@
     
     
     <div class="col d-flex align-items-start">
+      <img class="bi text-muted flex-shrink-0 me-3" src="/icons/feature-add.svg" />
+      <div>
+        <h4 class="fw-bold mb-0">Resident ECDSA keys</h4>
+        <p>Supports ECDSA discoverable keys</p>
+        
+      </div>
+    </div>
+    
+  
+    
+    
+    <div class="col d-flex align-items-start">
+      <img class="bi text-muted flex-shrink-0 me-3" src="/icons/feature-add.svg" />
+      <div>
+        <h4 class="fw-bold mb-0">Resident ED25519 keys</h4>
+        <p>Supports ED25519 discoverable keys</p>
+        
+      </div>
+    </div>
+    
+  
+    
+    
+    <div class="col d-flex align-items-start">
       <img class="bi text-muted flex-shrink-0 me-3" src="/icons/feature-pkcs.svg" />
       <div>
         <h4 class="fw-bold mb-0">PKCS#11 SmartCard</h4>
         <p>Conforms to PKCS11 SmartCard interface standards</p>
         <a href="https://en.wikipedia.org/wiki/PKCS_11">More Info</a>
-      </div>
-    </div>
-    
-  
-    
-    
-    <div class="col d-flex align-items-start">
-      <img class="bi text-muted flex-shrink-0 me-3" src="/icons/feature-add.svg" />
-      <div>
-        <h4 class="fw-bold mb-0">SSH ECDSA keys</h4>
-        <p>Supports ECDSA keys for SSH Authentication</p>
-        <a href="https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.u2f">More Info</a>
-      </div>
-    </div>
-    
-  
-    
-    
-    <div class="col d-flex align-items-start">
-      <img class="bi text-muted flex-shrink-0 me-3" src="/icons/feature-add.svg" />
-      <div>
-        <h4 class="fw-bold mb-0">SSH ED25519 keys</h4>
-        <p>Supports ED25519 keys for SSH Authentication</p>
-        <a href="https://github.com/openssh/openssh-portable/blob/master/PROTOCOL.u2f">More Info</a>
       </div>
     </div>
     
@@ -256,6 +268,21 @@
 </div>
 
 
+<p>Yubikeys are credited with starting the personal USB token industry, and for good measure. With the fifth generation of yubikey comes a unification of the overall line. The 5ci and Nano lack NFC, but the classic Yubikey series has NFC as a standard feature.</p>
+<p>With the Yubikey 5 Bio, Yubikey has added support for fingerprint based authentication.</p>
+<p>In addition to U2F functions, the YubiKey supports PKCS#11 PIV (Smart Card) functionality. For more information, see <a href="https://www.yubico.com/authentication-standards/smart-card/">Yubikey as a PIV Compatible Smart Card</a> on the Yubico website.</p>
+<h2 id="using-the-yubikey-with-other-services">Using the Yubikey with other services</h2>
+<p>The Yubikey series supports OpenPGP keys as well as other cryptographic functions through the SmartCard interface.</p>
+<p>Several community guides exist on these topics:</p>
+<ul>
+<li><a href="https://zach.codes/ultimate-yubikey-setup-guide/">Configuring OpenPGP and Yubikeys</a> (the &ldquo;Ultimate Yubikey Setup Guide&rdquo;)</li>
+</ul>
+<h3 id="totphotp-and-the-yubikey-series">TOTP/HOTP and the Yubikey series</h3>
+<p>Yubikeys support TOTP and HOTP through the <a href="https://www.yubico.com/products/yubico-authenticator/">Yubico Authenticator</a> application. This application allows adding and removing TOTP and HOTP credentials.
+These are stored on the key, not on the phone or desktop, however it is not possible to retrieve the secret once
+the values have been added.</p>
+<h3 id="ed25519-support-in-ssh-u2f">ED25519 support in SSH U2F</h3>
+<p>Support for ED25519 is limited to firmware 5.2.3 and above (supporting FIDO2). (<a href="https://cryptsus.com/blog/how-to-configure-openssh-with-yubikey-security-keys-u2f-otp-authentication-ed25519-sk-ecdsa-sk-on-ubuntu-18.04.html">source</a>) This may be important to you if you have <a href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm#Concerns">concerns over ECDSA</a>.</p>
 
     </main>
 

@@ -28,6 +28,24 @@ Where&amp;rsquo;d this all start? This started when I wanted to make a small adj
     </item>
     
     <item>
+      <title>ePASS FIDO NFC</title>
+      <link>/keys/feitian-epass-nfc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/feitian-epass-nfc/</guid>
+      <description>An NFC option that provides more than you&amp;rsquo;d expect.</description>
+    </item>
+    
+    <item>
+      <title>ePASS FIDO2</title>
+      <link>/keys/feitian-epass-fido2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/feitian-epass-fido2/</guid>
+      <description>Feitian&amp;rsquo;s ePASS Fido2 series provides a standards compliant U2F option for a low price.</description>
+    </item>
+    
+    <item>
       <title>Frequently Asked Questions</title>
       <link>/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -64,6 +82,33 @@ Learn more about
       
       <guid>/keys/hyperfido-pro-ti/</guid>
       <description>No-frills and durable, HyperSECU&amp;rsquo;s HyperFIDO Titanium Pro provides a basic option for keychains.</description>
+    </item>
+    
+    <item>
+      <title>Thetis FIDO2 Security key</title>
+      <link>/keys/thetis-fido2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/thetis-fido2/</guid>
+      <description>Thetis&#39; line of FIDO2 U2F tokens are durable, inconspicuous, and simple.</description>
+    </item>
+    
+    <item>
+      <title>Titan Key (Gen1)</title>
+      <link>/keys/google-titan-key-gen1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/google-titan-key-gen1/</guid>
+      <description>No longer supported, but comprehensive solution to account security.</description>
+    </item>
+    
+    <item>
+      <title>Titan Security Key (Gen3)</title>
+      <link>/keys/google-titan-key-gen3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/google-titan-key-gen3/</guid>
+      <description>Google&amp;rsquo;s current generation of U2F tokens, the third generation continues the tradition.</description>
     </item>
     
     <item>

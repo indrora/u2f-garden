@@ -25,6 +25,15 @@
     </item>
     
     <item>
+      <title>Titan Security Key (Gen3)</title>
+      <link>/keys/google-titan-key-gen3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/google-titan-key-gen3/</guid>
+      <description>Google&amp;rsquo;s current generation of U2F tokens, the third generation continues the tradition.</description>
+    </item>
+    
+    <item>
       <title>TrustKey T110</title>
       <link>/keys/trustkey-t110/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -6,5 +6,14 @@
     <description>Recent content in Thetis on The U2F Garden</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/vendor/thetis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thetis FIDO2 Security key</title>
+      <link>/keys/thetis-fido2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/thetis-fido2/</guid>
+      <description>Thetis&#39; line of FIDO2 U2F tokens are durable, inconspicuous, and simple.</description>
+    </item>
+    
   </channel>
 </rss>

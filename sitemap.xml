@@ -19,6 +19,14 @@
   </url><url>
     <loc>/about/</loc>
   </url><url>
+    <loc>/features/biometric/</loc>
+  </url><url>
+    <loc>/interfaces/bluetooth/</loc>
+  </url><url>
+    <loc>/keys/feitian-epass-nfc/</loc>
+  </url><url>
+    <loc>/keys/feitian-epass-fido2/</loc>
+  </url><url>
     <loc>/family/</loc>
   </url><url>
     <loc>/features/</loc>
@@ -32,6 +40,8 @@
     <loc>/features/fido-l2/</loc>
   </url><url>
     <loc>/faq/</loc>
+  </url><url>
+    <loc>/vendor/google/</loc>
   </url><url>
     <loc>/keys/gotrust-idemkey/</loc>
   </url><url>
@@ -61,15 +71,21 @@
   </url><url>
     <loc>/features/resident/</loc>
   </url><url>
+    <loc>/features/resident-ecdsa/</loc>
+  </url><url>
+    <loc>/features/resident-ed25519/</loc>
+  </url><url>
     <loc>/features/smartcard/</loc>
-  </url><url>
-    <loc>/features/ssh-ecdsa/</loc>
-  </url><url>
-    <loc>/features/ssh-ed25519/</loc>
   </url><url>
     <loc>/features/stored-password/</loc>
   </url><url>
     <loc>/vendor/thetis/</loc>
+  </url><url>
+    <loc>/keys/thetis-fido2/</loc>
+  </url><url>
+    <loc>/keys/google-titan-key-gen1/</loc>
+  </url><url>
+    <loc>/keys/google-titan-key-gen3/</loc>
   </url><url>
     <loc>/features/totp/</loc>
   </url><url>
