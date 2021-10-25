@@ -1,5 +1,5 @@
 ---
-title: "yubico fido2"
+title: "Yubico FIDO Security Key NFC"
 draft: false
 vendor: yubico
 vendor_link: https://www.yubico.com/products/security-key/
