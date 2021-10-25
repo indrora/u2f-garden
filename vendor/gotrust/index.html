@@ -78,7 +78,7 @@
 <p>GoTrustID (often simply GoTrust) is a Taiwanese vendor of second factor authentication devices. Many of their offerings include FIPS compliant secure element storage.</p>
 <p>They sell U2F tokens in the traditional USB/NFC token format as well as Bluetooth Low Energy and NFC token cards. While not offered to the general public, GoTrust does offer tokens which have PKCS#11/PIV functionality.</p>
 
-<div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1" data-masonry='{"percentPosition": true }'>
+<div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 needs-mason">
     
     
     
@@ -114,7 +114,19 @@
   
   
 
-  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script type="text/javascript">
+var $grid = $('.needs-mason').masonry({
+    "percentPosition": true 
+});
+$grid.masonry('layout')
+
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry('layout');
+});
+  </script>
 
 </body>
 

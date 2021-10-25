@@ -77,7 +77,7 @@
 
 
 <h1>Keys that use Near-Field Communication (NFC)</h1>
-<div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1" data-masonry='{"percentPosition": true }'>
+<div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 needs-mason">
     
     
     
@@ -147,8 +147,8 @@
     <div class="mb-3">
         
         <div class="card">
-          <img src="/keys/yubico-fido2/feature_hu473dc8ab92f0f3a108d1537b8624804d_134550_400x400_fill_q75_box_smart1.jpg" class="card-img-top" alt="yubico fido2"><div class="card-body">
-              <h3 class="card-title">yubico fido2</h3>
+          <img src="/keys/yubico-fido2/feature_hu473dc8ab92f0f3a108d1537b8624804d_134550_400x400_fill_q75_box_smart1.jpg" class="card-img-top" alt="Yubico FIDO Security Key NFC"><div class="card-body">
+              <h3 class="card-title">Yubico FIDO Security Key NFC</h3>
               A cut-down Yubikey, the Security Key series provides a classic form with wide function.</div>
           <div class="card-body">
               <a href="/keys/yubico-fido2/" class="card-link">More information</a>
@@ -205,7 +205,19 @@
   
   
 
-  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script type="text/javascript">
+var $grid = $('.needs-mason').masonry({
+    "percentPosition": true 
+});
+$grid.masonry('layout')
+
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry('layout');
+});
+  </script>
 
 </body>
 
