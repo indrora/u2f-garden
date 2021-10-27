@@ -25,6 +25,15 @@
     </item>
     
     <item>
+      <title>ePASS FIDO2 Biometric</title>
+      <link>/keys/feitian-epass-bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/feitian-epass-bio/</guid>
+      <description>Feitian&amp;rsquo;s biometric options bring fingerprint authentication for additional security</description>
+    </item>
+    
+    <item>
       <title>Titan Security Key (Gen3)</title>
       <link>/keys/google-titan-key-gen3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

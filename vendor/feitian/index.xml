@@ -24,5 +24,14 @@
       <description>Feitian&amp;rsquo;s ePASS Fido2 series provides a standards compliant U2F option for a low price.</description>
     </item>
     
+    <item>
+      <title>ePASS FIDO2 Biometric</title>
+      <link>/keys/feitian-epass-bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/feitian-epass-bio/</guid>
+      <description>Feitian&amp;rsquo;s biometric options bring fingerprint authentication for additional security</description>
+    </item>
+    
   </channel>
 </rss>

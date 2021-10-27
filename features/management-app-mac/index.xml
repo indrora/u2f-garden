@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/features/management-app-mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ePASS FIDO2 Biometric</title>
+      <link>/keys/feitian-epass-bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/keys/feitian-epass-bio/</guid>
+      <description>Feitian&amp;rsquo;s biometric options bring fingerprint authentication for additional security</description>
+    </item>
+    
+    <item>
       <title>TrustKey T110</title>
       <link>/keys/trustkey-t110/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
