@@ -77,22 +77,18 @@ biometric:
   label: "Biometric Authentication"
   description: "Allows or requires biometric authentication"
   icon: feature-biometric
-  parent: null
 pin-pad:
   label: "PIN Authentication (physical)"
   icon: feature-pin
   description: "Features a physical PIN pad for authentication"
-  parent: null
 wink:
   label: "LED wink"
   icon: feature-wink
   description: "Supports blinking or otherwise alerting the user to touch or interact with the device"
-  parent: null
 management-app:
   label: "Management Application"
   icon: feature-app
   description: "Vendor provides applications that extend or configure the device"
-  parent: null
 management-app-win:
   label: "Windows management application"
   icon: null

@@ -20,7 +20,7 @@
               <a href="{{.RelPermalink}}" class="card-link">More information</a>
             </div>
         <div class="card-footer text-muted">
-          {{range .Params.Features}}
+          {{range sort .Params.Features "" "asc" }}
           {{- with (index $.Site.Data.features . ) -}}
           {{- if ne (isset . "parent") true }}
           {{if isset . "icon" }}
