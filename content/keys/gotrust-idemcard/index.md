@@ -1,6 +1,6 @@
 ---
 title: IdemCard
-draft: true
+draft: false
 vendor: gotrust
 vendor_link: https://www.gotrustid.com/idem-card
 purchase:
