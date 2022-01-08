@@ -21,6 +21,8 @@
   </url><url>
     <loc>/features/biometric/</loc>
   </url><url>
+    <loc>/interfaces/ble/</loc>
+  </url><url>
     <loc>/interfaces/bluetooth/</loc>
   </url><url>
     <loc>/keys/feitian-epass-nfc/</loc>
@@ -57,6 +59,8 @@
   </url><url>
     <loc>/vendor/hypersecu/</loc>
   </url><url>
+    <loc>/keys/gotrust-idemcard/</loc>
+  </url><url>
     <loc>/interfaces/</loc>
   </url><url>
     <loc>/keys/</loc>
@@ -76,6 +80,8 @@
     <loc>/features/resident-ecdsa/</loc>
   </url><url>
     <loc>/features/resident-ed25519/</loc>
+  </url><url>
+    <loc>/interfaces/smartcard/</loc>
   </url><url>
     <loc>/features/smartcard/</loc>
   </url><url>
