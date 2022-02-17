@@ -119,7 +119,9 @@
   </url><url>
     <loc>/family/yubikey/</loc>
   </url><url>
-    <loc>/keys/yubico-yubikey5/</loc>
+    <loc>/keys/yubico-yk5/</loc>
+  </url><url>
+    <loc>/keys/yubico-yk5bio/</loc>
   </url><url>
     <loc>/features/yubiotp/</loc>
   </url>
