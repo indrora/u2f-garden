@@ -16,7 +16,6 @@ features:
   - resident
   - fido
   - fido-l1
-  - biometric
   - management-app
   - management-app-win
   - management-app-mac
@@ -30,8 +29,6 @@ summary: Yubico's flagship product, the Yubikey 5 is one of the most feature com
 
 Yubikeys are credited with starting the personal USB token industry, and for good measure. With the fifth generation of yubikey comes a unification of the overall line. The 5ci and Nano lack NFC, but the classic Yubikey series has NFC as a standard feature. 
 
-With the Yubikey 5 Bio, Yubikey has added support for fingerprint based authentication. 
-
 In addition to U2F functions, the YubiKey supports PKCS#11 PIV (Smart Card) functionality. For more information, see [Yubikey as a PIV Compatible Smart Card](https://www.yubico.com/authentication-standards/smart-card/) on the Yubico website.
 
 ## Using the Yubikey with other services
@@ -41,6 +38,8 @@ The Yubikey series supports OpenPGP keys as well as other cryptographic function
 Several community guides exist on these topics:
 
 * [Configuring OpenPGP and Yubikeys](https://zach.codes/ultimate-yubikey-setup-guide/) (the "Ultimate Yubikey Setup Guide")
+* [Yubikey GPG and SSH Auth on Windows and WSL](https://blog.oxycode.one/yubikey-gpg-and-ssh-auth-on-windows-and-wsl)
+
 
 ### TOTP/HOTP and the Yubikey series
 
