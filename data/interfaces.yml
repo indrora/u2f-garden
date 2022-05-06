@@ -15,4 +15,4 @@ lightning:
   icon: interface-lightning
 smartcard:
   label: ISO7816 SmartCard
-  icon: feature-smartcard
+  icon: feature-pkcs

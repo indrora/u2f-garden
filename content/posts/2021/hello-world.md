@@ -2,7 +2,7 @@
 title: "Hello, World!"
 date: 2021-09-18T15:03:09-07:00
 publishdate: 2021-09-18
-lastmod: 2021-09-18
+lastmod: 2022-05-05
 draft: false
 tags: ["Editorial"]
 author: indrora
@@ -23,4 +23,4 @@ What's U2F support give me? A bunch of stuff, actually. It means I could feasibl
 
 # How can I contribute? 
 
-We'll see...
+If you'd like to contribute, submit a pull request on GitHub.

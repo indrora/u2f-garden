@@ -12,7 +12,7 @@ features:
   - fido
   - fido-l1
 interfaces:
-  - ble
+  - bluetooth
   - nfc
   - smartcard
 summary: For those willing to do the legwork, a holdable option for wireless authentication.
