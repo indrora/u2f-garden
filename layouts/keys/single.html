@@ -23,6 +23,7 @@
       {{$feature := .Resources.GetMatch "feature*" }}
       {{if $feature -}}
       {{$resized := $feature.Fit "700x500"}}
+      {{- if .Params.Deprecated }}{{ $resized = $resized.Filter images.Grayscale }}{{ end -}}
       <img src="{{$resized.RelPermalink}}" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
       {{- else -}}
       {{- end -}}
