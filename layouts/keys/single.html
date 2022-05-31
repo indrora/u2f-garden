@@ -14,6 +14,10 @@
 </nav>
 
 <div class="container col-xxl-8 px-4 py-5">
+  {{ if .Params.Deprecated }}<div class="alert alert-warning" role="alert">
+    This key is no longer recommended for daily use, and should not be used in new deployments. This information is considered historical. 
+  </div>{{- end -}}
+
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-10 col-sm-8 col-lg-6">
       {{$feature := .Resources.GetMatch "feature*" }}
@@ -24,9 +28,6 @@
       {{- end -}}
     </div>
     <div class="col-lg-6">
-      {{ if .Params.Deprecated }}<div class="alert alert-danger" role="alert">
-        This key is no longer recommended for daily use.   
-      </div>{{- end -}}
       <h1 class="display-5 fw-bold lh-1 mb-3">{{.Title}}</h1>
       {{if .Params.Lead }}
       {{with .Params.Lead}}
@@ -37,10 +38,10 @@
       {{- end -}}
       <div class="d-grid gap-2">
         {{with .Params.vendor_link}}<a type="button" href="{{.}}" class="btn btn-primary btn-lg px-4 me-md-2">Vendor Website</a>{{end}}
-        
+        {{if not .Params.Deprecated }}
         {{with .Params.purchase.vendor}}<a type="button" href="{{.}}" class="btn btn-secondary btn-lg px-4 me-md-2">Purchase from {{$vendor.Title}}</a>{{end}}
         {{with .Params.purchase.amazon}}<a type="button" href="https://amazon.com/dp/{{.}}/" class="btn btn-secondary btn-lg px-4 me-md-2">Purchase on Amazon</a>{{end}}
-
+        {{- end -}}
       </div>
     </div>
   </div>
