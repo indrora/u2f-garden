@@ -63,7 +63,7 @@ Where&amp;rsquo;d this all start? This started when I wanted to make a small adj
       <description>Here are some common questions people ask:
 Why should I use a security token over an SMS authentication tool? SMS messages can &amp;ndash; and have &amp;ndash; been intercepted in the past. Attackers use techniques like SIM swapping to hijack messages and even phone calls.
 Learn more about
- SIM Swapping attacks and what the FCC is doing about them Weaknesses in mobile telephone networks  Do I need a different token for every site?</description>
+SIM Swapping attacks and what the FCC is doing about them Weaknesses in mobile telephone networks Do I need a different token for every site?</description>
     </item>
     
     <item>
