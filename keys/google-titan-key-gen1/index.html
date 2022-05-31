@@ -75,22 +75,18 @@
 </nav>
 
 <div class="container col-xxl-8 px-4 py-5">
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+  <div class="alert alert-warning" role="alert">
+    This key is no longer recommended for daily use, and should not be used in new deployments. This information is considered historical. 
+  </div><div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-10 col-sm-8 col-lg-6">
       
       
       <img src="/keys/google-titan-key-gen1/feature_hu75571e1417c252b48c2386527422b66b_59711_700x500_fit_q75_box.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"></div>
     <div class="col-lg-6">
-      <div class="alert alert-danger" role="alert">
-        This key is no longer recommended for daily use.   
-      </div><h1 class="display-5 fw-bold lh-1 mb-3">Titan Key (Gen1)</h1>
-      <p class="lead">No longer supported, but comprehensive solution to account security.</p><div class="d-grid gap-2">
+      <h1 class="display-5 fw-bold lh-1 mb-3">Titan Key (Gen1)</h1>
+      <p class="lead">No longer supported, the first generation of Google&rsquo;s Titan keys started the trend.</p><div class="d-grid gap-2">
         <a type="button" href="https://cloud.google.com/titan-security-key/" class="btn btn-primary btn-lg px-4 me-md-2">Vendor Website</a>
-        
-        
-        
-
-      </div>
+        </div>
     </div>
   </div>
 </div>
@@ -129,19 +125,19 @@
 
 <p>Google&rsquo;s first generation Titan Keys were introduced under their Advanced Protection program.
 The pair of keys, a Bluetooth/USB and USB A + NFC set, were sold for $50.</p>
-<p>The keys are safe, however they are not recommended for new installations. Google has not issued
-further Bluetooth U2F tokens in their later generations, saying in an <a href="https://security.googleblog.com/2021/08/simplifying-titan-security-key-options.html">announcement</a>:</p>
+<p>These keys were found to have a vulnerability in the Bluetooth dongle: According to a
+<a href="https://security.googleblog.com/2019/05/titan-keys-update.html">Google Security Blog post</a>, the
+Bluetooth tokens are vulnerable to an attack which requires proximity (about 30 feet) and
+prior knowledge of some parts of the user&rsquo;s credentials already, on top of having a very small
+time window.</p>
+<p>The non-Bluetooth keys are safe, however they are not recommended for new installations. The <a href="../google-titan-key-gen3/">Generation 3</a> keys are recommended instead.
+Google has not included Bluetooth U2F tokens in their later generations, saying in an <a href="https://security.googleblog.com/2021/08/simplifying-titan-security-key-options.html">announcement</a>:</p>
 <blockquote class="blockquote">
   <p class="mb-0"> 
 Since NFC functionality is now supported by a wide range of Android phones and iPhones, we are discontinuing the Bluetooth Titan Security Key and focusing on the easier and more widely available NFC capability. However, for existing users with our Bluetooth Titan Security Keys, these will continue to work with Bluetooth and will continue to work as an NFC key on most modern mobile devices. Applicable warranties for existing Bluetooth Titan Security Keys will continue to be honored per their terms. All Titan Security Keys are built with a hardware secure element chip that includes firmware engineered by Google to verify the key’s integrity.
 </p>
   
 </blockquote>
-<p>These keys were found to have a vulnerability in the Bluetooth dongle: According to a
-<a href="https://security.googleblog.com/2019/05/titan-keys-update.html">Google Security Blog post</a>, the
-Bluetooth tokens are vulnerable to an attack which requires proximity (about 30 feet) and
-prior knowledge of some parts of the user&rsquo;s credentials already, on top of having a very small
-time window.</p>
 
     </main>
 
