@@ -24,6 +24,9 @@
       {{- end -}}
     </div>
     <div class="col-lg-6">
+      {{ if .Params.Deprecated }}<div class="alert alert-danger" role="alert">
+        This key is no longer recommended for daily use.   
+      </div>{{- end -}}
       <h1 class="display-5 fw-bold lh-1 mb-3">{{.Title}}</h1>
       {{if .Params.Lead }}
       {{with .Params.Lead}}

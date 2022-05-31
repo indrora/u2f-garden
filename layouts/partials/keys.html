@@ -10,6 +10,7 @@
           {{$resized := .Fill "400x400" -}}
           <img src="{{ $resized.RelPermalink }}" class="card-img-top" alt="{{$pgTitle}}">
           {{- end -}}
+          {{- with .Params.Deprecated -}}{{- if . }}<div class="card-body text-dark bg-warning">This key is no longer recommended for use.</div>{{- end -}}{{- end -}}
           <div class="card-body">
               <h3 class="card-title">{{$pgTitle}}</h3>
               {{with .Summary -}}

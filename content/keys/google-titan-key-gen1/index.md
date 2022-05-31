@@ -3,6 +3,7 @@ title: "Titan Key (Gen1)"
 draft: false
 vendor: google
 vendor_link: https://cloud.google.com/titan-security-key/
+deprecated: true
 purchase:
   amazon: null
   vendor: null
