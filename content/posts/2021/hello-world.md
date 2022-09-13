@@ -23,4 +23,4 @@ What's U2F support give me? A bunch of stuff, actually. It means I could feasibl
 
 # How can I contribute? 
 
-If you'd like to contribute, submit a pull request on GitHub.
+If you'd like to contribute, submit a pull request on [GitHub](https://github.com/indrora/u2f-garden/).
