@@ -2,15 +2,15 @@
 title: TrustKey T110
 draft: false
 vendor: trustkey
-vendor_link: https://www.trustkeysolutions.com/security-keys/t110/
+vendor_link: https://www.trustkeysolutions.com/en/sub/product.form
 purchase:
   amazon: B086QTS5YM
-  vendor: https://www.trustkeysolutions.com/store/products/t110/
+  vendor: https://www.trustkeysolutions.com/en/sub/product.form
 features:
   - u2f
   - totp
   - hotp
-  - fido 
+  - fido
   - fido-l1
   - resident
   - resident-ecdsa

@@ -1,0 +1,28 @@
+{{- define "main" -}}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+  </ol>
+</nav>
+
+<h1>{{ .Title }}</h1>
+
+{{ with .Content }}{{ . }}{{ end }}
+
+{{ $pages := .Pages }}
+{{ range $pages.ByPublishDate.Reverse }}
+  <article class="py-3 border-bottom">
+    <h3 class="mb-1"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
+    <p class="text-muted small mb-2">
+      {{ $customDateFormat := "January 2, 2006" }}
+      {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
+      {{ .PublishDate.Format $customDateFormat }}
+      {{ partial "tags" . }}
+    </p>
+    {{ with .Summary }}<p>{{ . | markdownify }}</p>{{ end }}
+  </article>
+{{ end }}
+
+{{- end -}}

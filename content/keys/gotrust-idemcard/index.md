@@ -2,7 +2,8 @@
 title: IdemCard
 draft: false
 vendor: gotrust
-vendor_link: https://www.gotrustid.com/idem-card
+vendor_link: https://gotrustid.com/idem-key/
+deprecated: true
 purchase:
   amazon: B07YS68Y47
   vendor: null
@@ -15,9 +16,11 @@ interfaces:
   - bluetooth
   - nfc
   - smartcard
-summary: For those willing to do the legwork, a holdable option for wireless authentication.
-lede: NFC, Bluetooth, and SmartCard together? Ditching the traditional USB connector, this option gives a low cost option to try something different.
+summary: GoTrust's card form FIDO2 product. The dedicated product page has been retired and no current vendor SKU is sold.
+lede: NFC, Bluetooth, and SmartCard together. Ditching the traditional USB connector, this option gave a low cost route to try something different.
 ---
+
+The IdemCard's dedicated product page on gotrustid.com no longer resolves as of April 2026. The product appears to have been retired in favour of GoTrust's [Idem Key](../gotrust-idemkey/) family, which now has dedicated Idem Key, [Idem Key Plus](https://gotrustid.com/idem-key-plus/), and Idem Key Mini variants. Existing IdemCards in service continue to work, and second hand units are still available, so the writeup below is preserved for reference.
 
 GoTrust's IdemCard is a unique offering. For those who need SmartCard access, this can definitely be an option. 
 

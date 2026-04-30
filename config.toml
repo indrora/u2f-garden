@@ -7,7 +7,11 @@ title = 'The U2F Garden'
   title = "The U2F Garden"
 
 [params]
-  description = "The U2F Garden is a catalog of U2F tokens"
+  description = "The U2F Garden is a catalog of FIDO and U2F hardware security keys"
+  mainSections = ["posts"]
+  showPostSummary = true
+  customDateFormat = "January 2, 2006"
+  cookieConsent = false
 
 [menu]
   [[menu.nav]]
@@ -17,11 +21,11 @@ title = 'The U2F Garden'
   [[menu.nav]]
   name = "Keys"
   url = "/keys/"
-  weight=1
+  weight = 1
   [[menu.nav]]
   name = "FAQ"
-  url= "/faq/"
-  weight=3
+  url = "/faq/"
+  weight = 3
   [[menu.nav]]
   name = "Tags"
   url = "/tags/"
@@ -32,9 +36,9 @@ title = 'The U2F Garden'
   weight = 3
 
 [taxonomies]
-  type="type"
-  feature="features"
-  vendor="vendor"
-  interface="interfaces"
-  tag="tags"
-  family="family"
+  type = "type"
+  feature = "features"
+  vendor = "vendor"
+  interface = "interfaces"
+  tag = "tags"
+  family = "family"

@@ -3,7 +3,7 @@ title: GoTrustID
 country: Taiwan
 links:
   vendor: https://gotrustid.com/
-  purchase: https://www.gotrustid.com/store
+  purchase: https://gotrustid.com/idem-key/
   amazon: null
 summary: GoTrust provides FIPS-Compliant security keys in multiple forms, including traditional token and card forms.
 ---

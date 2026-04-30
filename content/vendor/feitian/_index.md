@@ -2,7 +2,7 @@
 title: FeiTian
 country: China
 links:
-  vendor: https://ftsafe.com/
+  vendor: https://www.ftsafe.com/products/FIDO
   purchase: null
   amazon: null
 ---

@@ -3,7 +3,7 @@ title: TrustKey
 country: United States
 links:
   vendor: https://www.trustkeysolutions.com/
-  purchase: https://www.trustkeysolutions.com/store
+  purchase: https://www.trustkeysolutions.com/en/sub/product.form
   amazon: null
 summary: TrustKey produces U2F tokens backed by a secure element designed by the parent company, eWBM.
 ---
