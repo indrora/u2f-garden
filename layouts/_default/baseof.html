@@ -45,14 +45,14 @@
       if (!btn) return;
       var media = window.matchMedia('(prefers-color-scheme: dark)');
       btn.addEventListener('click', function () {
-        var current = document.documentElement.getAttribute('data-theme') || 'light';
+        var current = document.documentElement.getAttribute('data-bs-theme') || 'light';
         var next = current === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', next);
+        document.documentElement.setAttribute('data-bs-theme', next);
         try { localStorage.setItem('theme', next); } catch (e) {}
       });
       media.addEventListener('change', function (e) {
         if (localStorage.getItem('theme')) return;
-        document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-bs-theme', e.matches ? 'dark' : 'light');
       });
     })();
   </script>
