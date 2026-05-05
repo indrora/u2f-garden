@@ -2,8 +2,8 @@
 title: Why cloning FIDO tokens is a bad idea
 date: 2022-05-05
 publishdate: 2022-05-08
-lastmod: 2022-05-05
-draft: true
+lastmod: 2026-04-30
+draft: false
 tags: ["Editorial"]
 author: indrora
 ---
@@ -36,5 +36,13 @@ A common example of these is Google's 4-4 numeric codes. During setup, you're en
 
 Personally, I would like to see a means for the browser to use one of these codes as a backup authentication mechanism -- without the need for the site to generate them, shifting the generation and maintenance of them from the relying party (a fancy name for "the site you're authenticating to") and onto the authenticator itself. How this would be implemented I'm not certain. 
 
-# The abilty to clone is a dangerous foot-gun
+# The ability to clone is a dangerous foot gun
+
+Once a key can be cloned, the attacker model changes. Right now, if your hardware key is stolen, you know it is gone. You go to your accounts, remove the lost key, register a new one, and the attacker is locked out. There is no ambiguity about which credentials are still under your control.
+
+If keys could be cloned, a sophisticated attacker who briefly had access to your key, say through a customs inspection, a hotel room search, or a few hours during a long flight, could leave with a copy. You would still have your key. You would not know anything was wrong. The attacker would have a fully functional credential against every account you have registered.
+
+This is exactly the kind of attack the [EUCLEAK side channel](/posts/2026/euclear-and-your-yubikey/) exploits in 2024 and 2025, against pre firmware 5.7 Yubikeys. EUCLEAK is expensive, requires shell removal, and destroys the original key in the process, all of which are protective in the threat model above. A general purpose cloning capability would not have those protective properties.
+
+The current model, where a key is unique, where loss is detectable, and where rotation is possible without backups, is one of the better security properties of the FIDO standards. Backup codes belong in the standard. Cloning does not.
 

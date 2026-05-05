@@ -5,7 +5,7 @@ vendor: feitian
 vendor_link: https://www.ftsafe.com/Products/FIDO/NFC
 purchase:
   amazon: B01M1R5LRD
-  vendor: https://shop.ftsafe.us/collections/epass-fido/products/k9
+  vendor: https://shop.ftsafe.us/
 features:
   - u2f
   - fido

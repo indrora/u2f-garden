@@ -14,7 +14,7 @@ interfaces:
   - usba
   - bluetooth
   - nfc
-Summary: No longer supported, the first generation of Google's Titan keys started the trend.
+summary: No longer supported, the first generation of Google's Titan keys started the trend.
 ---
 
 Google's first generation Titan Keys were introduced under their Advanced Protection program. 
